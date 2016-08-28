@@ -1,0 +1,132 @@
+/* fonts*/
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+@font-face
+{
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+/* Total */
+body
+{
+    height: 2350px;
+    width: 1300px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;   
+}
+
+header:after{
+    clear: both;
+}
+.float, nav li
+{
+    /*display: inline-block;*/
+    float: left;
+    box-sizing: border-box;
+}
+.cleanp
+{
+    margin: 0;
+}
+/* Header*/ 
+header
+{
+    width: 1300px;
+    height: 146px;
+    background-color: #ddf;
+}
+.logo
+{
+    width: 381px;
+    height: 146px;
+    padding-top: 28px; 
+    padding-left: 64px;
+}
+.slogan
+{
+    width: 621px;
+    height: 146px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 51px;
+    
+    
+}
+.slogan p
+{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1em;
+}
+.contacts
+{
+    padding-right: 64px;
+    width: 293px;
+    height: 146px;
+    text-align: right;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+.numbers
+{
+    color: #7e4d25;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+}
+.ask-button
+{
+    background-color: #aa9385;
+    width: 146px;
+    height: 34px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 7px;
+    margin-top: 5px;
+    float: right;
+}
+/*navigation*/
+/* Сброс стилей для Chrome */
+ul{
+    margin: 0px;
+    height: inherit;
+}
+
+nav
+{
+    width: 1300px;
+    height: 57px;
+    box-sizing: border-box;
+    background-color: #7e4d25;
+    display: inline-block;
+    padding-left: 63px;
+}
+nav li
+{
+    list-style: none;
+    float: left;
+    padding: 0px 47px 0 47px;/* Устанавливаем отступы слева и справа */
+    height: inherit;/* Наследуем высоту от родительского элемента */
+    line-height: 54px;/* С помощью меж.строч.  интервала выравниваем по середине */
+}
+/* Изменяем цвет пунктов меню при наведении, добавляем смену курсора, чтобы было понятно, что это активный элемент */
+nav li:hover {
+    background-color: #aa9385;
+    cursor: pointer;
+}
+/* Убираем подчеркивание для ссылок*/
+nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    text-shadow: 1px, 0px, 1px black;
+}
+
+
+

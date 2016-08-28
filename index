@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="stylenew.css" type="text/css" >
+        <title>Сладкий Хлеб</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    </head>
+    <body><!--
+           --><header class="inl-bl"><!--
+                    Логотип
+            --><div class="logo inl-bl">
+                    <img src="logo.png" alt="logo">
+               </div><!--
+                    Слоган
+            --><div class="slogan cleanp inl-bl">
+                    <p>Сладкий хлебушек по цене производителя <br>
+                        с бесплатной доставкой по Санкт-Петербургу
+                    </p>
+               </div><!--
+                    Контакты
+            --><div class="contacts inl-bl">
+                    <p class="phones cleanp"> 
+                        Звоните нам прямо сейчас:<br>
+                        <span class="numbers">
+                        8 (565) 565-65-65<br>
+                        8 (652) 565-56-56
+                        </span>
+                    </p>
+                    <a href="#" class="ask-button inl-bl">Срочный заказ</a>
+               </div><!--
+        --></header>
+        <nav>
+        </nav>
+        <footer>
+        </footer>
+    </body>
+</html>

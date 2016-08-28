@@ -1,0 +1,243 @@
+/* fonts*/
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(fonts/OpenSans-Regular.ttf);
+}
+
+/* Total */
+body {
+    height: 2350px;
+    width: 1300px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+.price:after,
+.slider:after,
+nav:after,
+header:after {
+    clear: both;
+}
+
+.slider, nav,
+.float, nav li {
+    float: left;
+    box-sizing: border-box;
+}
+
+.cleanp {
+    margin: 0;
+}
+
+/* Header*/
+header {
+    width: 1300px;
+    height: 146px;
+    background-color: #ddf;
+}
+
+.logo {
+    width: 381px;
+    height: 146px;
+    padding-top: 28px;
+    padding-left: 64px;
+}
+
+.slogan {
+    width: 621px;
+    height: 146px;
+    text-align: center;
+    padding-top: 40px;
+    padding-left: 51px;
+
+}
+
+.slogan p {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1em;
+}
+
+.contacts {
+    text-align: right;
+    margin: 22px 0 0 47px;
+}
+
+.numbers {
+    color: #7e4d25;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+}
+
+.ask-button {
+    background-color: #aa9385;
+    width: 146px;
+    height: 34px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 7px;
+    margin-top: 5px;
+    float: right;
+}
+
+/*navigation*/
+/* Сброс стилей для Chrome */
+ul {
+    margin: 0;
+    height: inherit;
+    padding: 0;
+}
+
+nav {
+    width: 1300px;
+    height: 43px;
+    box-sizing: border-box;
+    background-color: #7e4d25;
+    padding-left: 63px;
+}
+
+nav li {
+    list-style: none;
+    float: left;
+    padding: 0 45px 0 45px; /* Устанавливаем отступы слева и справа */
+    height: inherit; /* Наследуем высоту от родительского элемента */
+    line-height: 43px; /* С помощью меж.строч.  интервала выравниваем по середине */
+}
+
+/* Изменяем цвет пунктов меню при наведении, добавляем смену курсора, чтобы было понятно, что это активный элемент */
+nav li:hover {
+    background-color: #b06a32;
+    cursor: pointer;
+}
+
+/* Убираем подчеркивание для ссылок*/
+nav li a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px black; /* Параметры тени */
+}
+
+/*slider*/
+.slider 
+{
+    background-image: url(slider1.jpg);
+    width: 1300px;
+    height: 400px;
+}
+
+.slider-left
+{
+    float: left;
+    /*box-sizing: border-box;*/
+    width: 35px;
+    height: 241px;
+}
+
+.slider-right
+{
+    float: left;
+    width: 1265px;
+    height: inherit;
+    
+}
+.price
+{
+    background-color: #e0756b;
+    border-radius: 6px;
+    float: left;
+    box-sizing: border-box;
+    width: 35px;
+    height: 241px;
+    margin-top: 48px;
+}
+
+.price p
+{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    transform: rotate(-90deg);
+    font-weight: bold;
+    width: 194px;
+    position: relative;
+    top: 109px;
+    left: -80px;
+    font-size: 14px;
+}
+
+.arrov-to-left
+{
+    width: 130px;
+    height: inherit;
+    float:left;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-top: 174px;
+}
+
+.framemain
+{
+    width: 970px;
+    height: 312px;
+    border-top: 5px solid white;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+    box-sizing: border-box;
+    margin-top: 42px;
+    padding-left: 47px;
+    padding-top: 60px;
+    float: left;
+}
+.framemain h4
+{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+.framemain p
+{
+    font-size: 18px;
+    color: white;
+    display: block;
+    margin-top: 25px;
+}
+
+.askmore
+{
+    margin-top: 25px;
+    display: block;
+    background-color: #aa9385;
+    width: 132px;
+    height: 35px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    padding-top: 8px;
+}
+
+.framebottomleft
+{
+    float: left;
+    border-top: 5px solid white;
+    width: 399px;
+}
+.arrov-to-right
+{
+    box-sizing: border-box;
+    width: 170px;
+    height: inherit;
+    padding-top: 174px;
+    padding-right: 68px;
+    float: right;
+}
+
